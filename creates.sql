@@ -34,7 +34,7 @@ CREATE TABLE VENDAS (
         FOREIGN KEY (cliente_id) REFERENCES CLIENTES (cliente_id)
 );
 
-CREATE TABLE FK_ITENS_VENDA (
+CREATE TABLE ITENS_VENDA (
     item_venda_id SERIAL PRIMARY KEY,
     venda_id INT NOT NULL,
     produto_id INT NOT NULL,
