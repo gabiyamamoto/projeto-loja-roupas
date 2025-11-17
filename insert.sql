@@ -16,16 +16,17 @@ VALUES
 
 INSERT INTO PRODUTOS (produto_id, nome_produtos, preco, quantidade_estoque, tamanho, cor, categoria_id)
 VALUES
-(1, 'Camiseta Oversized Urban', 89.90, 25, 'M', 'Preta', 1),
-(2, 'Camiseta Oversized Urban', 89.90, 18, 'G', 'Branca', 1),
-(3, 'Moletom Street Vision', 199.90, 12, 'M', 'Cinza', 2),
-(4, 'Moletom Street Vision', 199.90, 8, 'G', 'Preto', 2),
-(5, 'Calça Cargo Premium', 159.90, 10, 'M', 'Verde Militar', 3),
-(6, 'Calça Cargo Premium', 159.90, 7, 'G', 'Preta', 3),
-(7, 'Short Urban Flex', 79.90, 20, 'M', 'Preto', 4),
-(8, 'Short Urban Flex', 79.90, 22, 'G', 'Cinza', 4),
-(9, 'Boné Street Culture', 59.90, 30, 'Único', 'Preto', 5),
-(10, 'Boné Street Culture', 59.90, 14, 'Único', 'Bege', 5);
+(1, 'Camiseta Básica Oversized', 89.90, 25, 'M', 'Preta', 1),
+(2, 'Camiseta Básica Oversized', 89.90, 18, 'G', 'Branca', 1),
+(3, 'Moletom Com Capuz', 199.90, 12, 'M', 'Cinza', 2),
+(4, 'Moletom Com Capuz', 199.90, 8, 'G', 'Preto', 2),
+(5, 'Calça Cargo Básica', 159.90, 10, 'M', 'Verde Militar', 3),
+(6, 'Calça Cargo Básica', 159.90, 7, 'G', 'Preta', 3),
+(7, 'Short Casual', 79.90, 20, 'M', 'Preto', 4),
+(8, 'Short Casual', 79.90, 22, 'G', 'Cinza', 4),
+(9, 'Boné Simples', 59.90, 30, 'Único', 'Preto', 5),
+(10, 'Boné Simples', 59.90, 14, 'Único', 'Bege', 5);
+
 
 INSERT INTO VENDAS (venda_id, cliente_id, data_venda, endereço_entrega, forma_pagamento)
 VALUES
