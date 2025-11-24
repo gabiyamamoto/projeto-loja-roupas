@@ -12,7 +12,7 @@ CREATE TABLE CATEGORIAS (
 
 CREATE TABLE PRODUTOS (
     produto_id SERIAL PRIMARY KEY,
-    nome_produtos VARCHAR(120) NOT NULL,
+    nome_produto VARCHAR(120) NOT NULL,
     preco DECIMAL (10,2) NOT NULL CHECK (preco >= 0),
     quantidade_estoque INT NOT NULL CHECK (quantidade_estoque >= 0),
     tamanho VARCHAR(10) NOT NULL,
